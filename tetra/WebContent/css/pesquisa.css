@@ -1,0 +1,70 @@
+.Divlabel {
+	float: left;
+
+	padding-bottom: 30px;
+	margin-left: 25px;
+}
+.Divlabel label:first-child {
+	float: right;
+	position: relative;
+	top: 5px;
+}
+.Divlabel label:last-child {
+	position: relative;
+	top: 25px;
+}
+
+.resultado {
+	padding-top: 50px;
+	font-size: 13px;
+	margin-left: 250px;
+}
+.resultado h3 {
+	margin-left: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px #AAA solid;
+}
+
+
+
+
+
+
+
+#myTable a {
+	color: #2277DD;
+	text-decoration: underline;
+}
+#myTable{
+	position: relative;
+	left: 13px;
+	   border: 1px solid #88BBDD;  
+}
+#myTable td {
+	border: 1px solid #88BBDD;
+	padding: 3px 50px 3px 5px; 
+}
+
+#myTable tr:first-child {
+	background: #3399DD;
+	color: #FFF;
+
+}
+
+
+
+#myTable th {
+	font-weight: bolder;
+}
+#myTable tr:first-child td{
+	font-weight: bolder;
+
+}
+#myTable td:first-child {
+	font-weight: bolder;
+}
+#myTable tr:nth-child(even) {background: #CCEEFF}
+
+
+
+

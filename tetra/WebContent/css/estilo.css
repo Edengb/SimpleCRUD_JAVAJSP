@@ -1,0 +1,134 @@
+*{
+	font-family: arial;
+}
+a:link {
+	text-decoration: none;
+}
+a:active {
+	color: #3399DD;
+}
+a {
+	color:  black;
+}
+a {
+
+}
+header {
+	border: 1px #DDD solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 25px 0px 30px 0px;
+}
+header h1 {
+	font-weight: bold;
+	text-align: center;
+	line-height: 95px;
+	font-size: 23px;
+
+}
+.logo {    
+	float: left;
+}
+.menu-opcoes {
+	border: 1px #CCC solid;
+	float: left;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	height: 450px;
+	clear: left;
+	z-index: 1;
+}
+.menu-opcoes li {
+	margin-right: 250px;
+	margin-left: 10px;
+}
+.menu-opcoes li:first-child {
+	font-weight: bold;
+}
+.container {
+	border-top: none;
+}
+
+.container h2 {
+	margin-top: 15px;
+	margin-left:255px;
+	font-size: 15px;
+}
+
+.first-letter {
+  font-size: 20px;
+}
+.container input {
+	margin-bottom: 15px;
+	margin-left: 10px;
+
+}
+input[type=submit] {
+    padding:10px 43px; 
+    background: #4499EE; 
+    border:1px solid #005599;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: #fff;
+    display: block;
+	font-weight: bold;
+	margin-top: 50px;
+	position: relative;
+	left: 30px;
+}
+.menu-opcoes li {
+	margin-top: 20px;
+}
+
+
+.divLabel {
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+	padding-bottom: 5px;
+
+}
+
+
+form {
+	margin-top: 40px;
+}
+.divLabel label {
+	float: right;
+	position: relative;
+	margin-top: 31px;
+}
+
+.divLabel label:first-child {
+	margin-top: 4px;
+}
+.divLabel label:last-child  {
+	margin-top: 25px;
+}
+
+.divInput input{
+	position: relative;
+	
+	margin-bottom: 25px;
+}
+
+.divInput input:first-child {
+	margin-top: 6px;
+}
+
+
+
+
+.divInput:nth-child(2){
+	position: relative;
+	margin-top: 15px;
+}
+
+
+.container {
+	margin-left: 100px;
+}
+

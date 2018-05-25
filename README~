@@ -1,0 +1,14 @@
+Segue o roteiro para a CRUD.
+
+Instruções:
+criar uma tela de cadastro de clientes em JSP, chamada cadastro.jsp, seguindo a especificação do anexo1.jpg
+nos campos obrigatórios (identificados com * no anexo1), fazer uma validação na tela antes de enviar a solicitação
+não permitir incluir emails duplicados no banco de dados (fazer a validação no server, impedindo a operação e alertando o usuário sobre o erro)
+
+criar uma tabela de clientes no banco de dados chamado "tetra" no MySQL local
+ao clicar em "salvar" na tela de cadastro, persistir os dados da tela no banco de dados MySQL
+
+criar uma tela pesquisa.jsp, seguindo especificação do anexo2.jpg
+essa tela deverá listar os registros que estão na tabela de clientes
+ao preencher os filtros, a tabela deve ser atualizada com o resultado da operação
+ao clicar sobre o botão "editar" nos resultados da pesquisa, abrir a tela de cadastro com os dados do cliente selecionado preenchidos. Ao alterar algo e salvar, persistir os dados no banco MySQL

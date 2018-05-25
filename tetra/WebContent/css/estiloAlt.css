@@ -1,0 +1,61 @@
+.container {
+	margin-left: 350px;
+}
+
+
+
+input[type=submit] {
+    padding:10px 43px; 
+    background: #4499EE; 
+    border:1px solid #005599;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: #fff;
+	font-weight: bold;
+	margin-top: 20px;
+	position: relative;
+	left: 30px;
+}
+
+.divInput input{
+	position: relative;
+	
+	margin-bottom: 18px;
+}
+
+.divInput  input[type="radio"] {
+	top: 3px;
+	margin-bottom: 23px;
+}
+
+
+.divInput span {
+	position: relative;
+	top: -3px;
+}
+
+
+.divInput input:first-child {
+	margin-top: 6px;
+}
+
+
+.divInput:nth-child(2){
+	position: relative;
+	margin-top: 15px;
+}
+
+
+.container {
+	margin-left: 100px;
+}
+
+.inputPesquisa {
+	height: 20px;
+}
+
+.labelfiltro{
+	margin-bottom: 10px;
+}
+

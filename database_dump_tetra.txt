@@ -1,0 +1,94 @@
+drop database tetra;
+
+create database tetra;
+
+use tetra;
+
+create table clientes(
+id int auto_increment,
+nome varchar(50) not null,
+email varchar(50) not null,
+endereco varchar(100),
+telefone char(10),
+sexo char(1) not null,
+newsletter boolean not null,
+primary key(id));
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Carlos Alberto', 
+	'carlo.alberto@outlook.com', 
+	'Rua Prof. Carlos - 85 Jd. Tupi - São Paulo/SP', 
+	'1144446666', 
+	'M', 
+	true);
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Carlos Alberto', 
+	'carlo.alberto.torres@msn.com', 
+	'Rua Gen. Almeida - 85 Jd. Papa - São Paulo/SP', 
+	'1144446666', 
+	'M', 
+	false);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Amanda Pereira', 
+	'amanda.pereira.torres@hotmail.com', 
+	'Rua Pedro Barbosa - 85 Jd. Madureira - São Paulo/SP', 
+	'1144446666', 
+	'F', 
+	true);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Maria Silva dos Santos', 
+	'maria.silva@gmail.com', 
+	'Av. Almirante Luis - 85 Jd. Madureira - Rio de Janeiro/RJ', 
+	'1144446666', 
+	'F', 
+	true);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Maria Silva', 
+	'maria.silva2@gmail.com', 
+	'Rua Zezé - 85 Jd. Riacho - Rio de Janeiro/RJ', 
+	'1144446666', 
+	'F', 
+	true);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Untako Satimoto', 
+	'untako.satimoto@hotmail.com', 
+	'Rua Benedito Oliveira - 85 Jd. Carlos - Barueri/SP', 
+	'1144446666', 
+	'M', 
+	true);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Emerson Santos', 
+	'emerson.santos@gmail.com', 
+	'Av. Jorge Lima - 85 Jd. das Árvores - Rio de Janeiro/RJ', 
+	'1144446666', 
+	'M', 
+	true);    	
+
+
+insert into clientes (nome, email, endereco, telefone, sexo, newsletter) 
+values (
+	'Sergio Ferreira', 
+	'sergio.net@yahoo.com', 
+	'Rua Lágo - 85 Jd. Rio - Rio de Janeiro/RJ', 
+	'1144446666', 
+	'M', 
+	true);
+
